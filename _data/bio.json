@@ -1,118 +1,127 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
-    "label": "Student",
-    "picture": "https://github.com/kambergjohnson.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.",
-    "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "name": "Mujtaba Quadri",
+    "label": "Alumni",
+    "picture": "https://mujtaba-a-quadri.github.io/images/mujtaba-a-quadri.PNG",
+    "email": "mujtabaq@hawaii.edu",
+    "phone": "808-800-6709",
+    "website": "https://mujtaba-a-quadri.github.io",
+    "summary": "I'm a recent graduate from UH Manoa with a BS in Computer Science.",
+    "location": {
+      "address": "",
+      "postalCode": "96822",
+      "city": "Honolulu",
+      "countryCode": "USA",
+      "region": "Hawaii"
+    },
     "profiles": [
-      { "network": "github", "username": "mmaluhia", "url": "http://github.com/changeme" },
-      { "network": "linkedin", "username": "mollymaluhia", "url": "http://linkedin.com/in/changeme" },
-      { "network": "twitter", "username": "mollymal", "url": "http://twitter.com/changeme" },
-      { "network": "instagram", "username": "molly", "url": "http://instagram.com/changeme" }
+      {
+        "network": "github",
+        "username": "mujtaba-a-quadri",
+        "url": "http://github.com/mujtaba-a-quadri"
+      },
+      {
+        "network": "linkedin",
+        "username": "Mujtaba Quadri",
+        "url": "https://www.linkedin.com/in/mujtaba-quadri/"
+      }
     ]
   },
   "interests": [
-    { "name": "Interactive media" },
-    { "name": "Neuromorphic Computing" },
-    { "name": "Quantum Computing" },
-    { "name": "Robotics" },
-    { "name": "3D Graphics" }
+    {
+      "name": "Software Engineering",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Website Development",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Data Management",
+      "keywords": [
+      ]
+    }
   ],
   "skills": [
     {
-      "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Common Lisp" ]
+      "name": "Languages",
+      "level": "",
+      "keywords": [
+        "Python",
+        "Javascript",
+        "PHP",
+        "C++",
+        "Java",
+        "HTML/CSS",
+        "MySQL",
+        "MongoDB"
+      ]
     },
     {
-      "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
+      "name": "Tools/OS",
+      "level": "",
+      "keywords": [
+        "React",
+        "Meteor",
+        "MacOS",
+        "Windows",
+        "Git/GitHub",
+        "Microsoft Office"
+      ]
     }
   ],
   "education": [
     {
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
-      "studyType": "B.S.",
-      "startDate": "2013-09-01",
-      "endDate": "Present",
-      "courses": [
+      "institution": "University of Hawai'i, Honolulu, HI",
+      "area": "Computer Science",
+      "studyType": "BS",
+      "startDate": "2019-08-26",
+      "endDate": "2022-12-17",
+      "gpa": "3.98",
+      "courses": ["Graduated with summa cum laude distinction and a 3.98/4.00 GPA; UH Mānoa Dean’s List every semester",
+                  "Worked on multiple full-stack class projects including participating in 2 hackathons",
+                  "Created and moderated multiple Discords for online classes, facilitating study groups and peer discussions.",
+                  "President of PandA (Programming and Algorithms) club"
       ]
     }
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
-      "website": "",
-      "startDate": "2015-08-01",
+      "company": "Hawai'i Department of Taxation",
+      "position": "System Programmer",
+      "website": "https://tax.hawaii.gov/",
+      "startDate": "2022-07-01",
+      "endDate": "2022-12-16",
+      "summary": "Developing alongside a team of Hawai'i government employees and contracted FAST Enterprises employees on the internal GenTax website and the public DOTAX tax.hawaii.gov website.",
+      "highlights": [
+        "Worked on the 2022 Year-End Changes project, updating many forms and parts of the site for 2023.",
+        "Collaborated with the team for multiple passes of end-to-end testing of the system and changes.",
+        "Regular meetings with management discussing progress, prioritization, and requirements for tasks."
+      ]
+    },
+    {
+      "company": "ISEC Society",
+      "position": "Full Stack Developer",
+      "website": "https://www.isec-society.org/index.php",
+      "startDate": "2020-12-18",
       "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "summary": "Independent contractor, working on ISEC website and providing IT support",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
-      ]
-    },
-    {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
-      "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "LAMP (Linux, Apache, MySQL, PHP) tech stack",
+        "Hundred-thousand-line legacy code base with little documentation",
+        "Interfacing with non-tech-fluent admin team on programming tasks",
+        "Training new developer for work on the site"
       ]
     }
+
   ],
-  "volunteer": [
-    {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
-      "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
-      ]
-    },
-    {
-      "organization": "",
-      "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
-      ]
-    }
-  ],
-  "awards": [
-    {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
-    },
-    {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
-    }
-  ],
+
   "references": [
     {
-      "name": "Available upon request"
+      "name": "Available upon request",
+      "reference": ""
     }
   ]
 }
