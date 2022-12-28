@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/isec/isec-crop.png
+image: img/isec/isec-logo.png
 title: ISEC Society Website
 permalink: projects/ISEC
 # All dates must be YYYY-MM-DD format!
