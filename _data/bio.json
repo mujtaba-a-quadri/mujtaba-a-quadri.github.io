@@ -1,11 +1,11 @@
 {
   "basics": {
-    "name": "Mujtaba Quadri",
+    "name": "Mujtaba Abdullah Quadri",
     "label": "Alumni",
-    "picture": "https://mujtaba-a-quadri.github.io/images/mujtaba-a-quadri.PNG",
+    "picture": "img/mujtaba-a-quadri.PNG",
     "email": "mujtabaq@hawaii.edu",
     "phone": "808-800-6709",
-    "website": "https://mujtaba-a-quadri.github.io",
+    "website": "https://github.com/mujtaba-a-quadri.png",
     "summary": "I'm a recent graduate from UH Manoa with a BS in Computer Science.",
     "location": {
       "address": "",
@@ -77,8 +77,8 @@
       "institution": "University of Hawai'i, Honolulu, HI",
       "area": "Computer Science",
       "studyType": "BS",
-      "startDate": "2019-08-26",
-      "endDate": "2022-12-17",
+      "startDate": "Aug. 2019",
+      "endDate": "Dec. 2022",
       "gpa": "3.98",
       "courses": ["Graduated with summa cum laude distinction and a 3.98/4.00 GPA; UH Mānoa Dean’s List every semester",
                   "Worked on multiple full-stack class projects including participating in 2 hackathons",
@@ -106,7 +106,7 @@
       "position": "Full Stack Developer",
       "website": "https://www.isec-society.org/index.php",
       "startDate": "2020-12-18",
-      "endDate": "Present",
+      "endDate": "2022-08-01",
       "summary": "Independent contractor, working on ISEC website and providing IT support",
       "highlights": [
         "LAMP (Linux, Apache, MySQL, PHP) tech stack",
