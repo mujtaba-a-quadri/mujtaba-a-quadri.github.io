@@ -2,10 +2,9 @@
   "basics": {
     "name": "Mujtaba Abdullah Quadri",
     "label": "Alumni",
-    "picture": "img/mujtaba-a-quadri.PNG",
+    "picture": "https://github.com/mujtaba-a-quadri.png",
     "email": "mujtabaq@hawaii.edu",
     "phone": "808-800-6709",
-    "website": "https://github.com/mujtaba-a-quadri.png",
     "summary": "I'm a recent graduate from UH Manoa with a BS in Computer Science.",
     "location": {
       "address": "",

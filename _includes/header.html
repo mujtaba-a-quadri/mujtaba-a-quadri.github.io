@@ -1,9 +1,10 @@
 <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
   <div class="container-fluid">
-    <a class="navbar-brand" href="{{ '/' | prepend: site.baseurl }}">{{ site.data.bio.basics.name }}</a>
-    <div class="ms-auto">
+      <a class="navbar-brand">{% include about/home.html name='house' %}</a>
+      <a class="navbar-brand" href="{{ '/' | prepend: site.baseurl }}">&nbsp{{ site.data.bio.basics.name }}</a>
+  <div class="ms-auto">
       <ul class="navbar-nav mb-2 mb-lg-0">
-        <a class="nav-link" href="{{ '/#projects' | prepend: site.baseurl }}">Projects</a>
+        <a class="nav-link" href="{{ '/projects' | prepend: site.baseurl }}">Projects</a>
         <a class="nav-link" href="{{ '/resume.html' | prepend: site.baseurl }}">Resume</a>
       </ul>
     </div>
