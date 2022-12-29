@@ -1,6 +1,6 @@
 ---
 layout: project
-type: project
+type: old
 image: img/covidTracker/covid-tracker-logo-crop.png
 title: COVID-19 Tracker Project
 permalink: projects/covid-tracker

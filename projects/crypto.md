@@ -1,6 +1,6 @@
 ---
 layout: project
-type: donotshow
+type: old
 image: img/cryptoClicker/crypto-cover.jpg
 title: Crypto Clicker
 permalink: projects/clicker
