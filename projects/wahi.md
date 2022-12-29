@@ -14,7 +14,7 @@ labels:
   - Meteor
   - Web App
   - Mobile app
-summary: Our team of five's submission for the 2021 Hawaii Annual Code Challenge!
+summary: A marine animal reporting app and website; my team of 5's submission for the 2021 HACC Hackathon.
 ---
 
 <figure class="figure float-end">
@@ -24,7 +24,7 @@ summary: Our team of five's submission for the 2021 Hawaii Annual Code Challenge
 
 ## The Challenge 
 
-For the [2021 HACC](https://hacc.hawaii.gov/) my group took on the challenge of implementing a marine life reporting & sighting app. Hawaii Marine Animal Reponse (HMAR) desired an app to help managing the large amount of reports they get (all through a phone line) for sightings of endangered species of birds, seals, and turtles.
+For the [2021 HACC (Hawaii Annual Code Challenge)](https://hacc.hawaii.gov/) my group took on the challenge of implementing a marine life reporting & sighting app. HMAR (Hawaii Marine Animal Reponse) desired an app to help managing the large amount of reports they get (all through a phone line) for sightings of endangered species of birds, seals, and turtles.
 
 
 ## The App

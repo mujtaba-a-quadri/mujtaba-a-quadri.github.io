@@ -13,7 +13,7 @@ labels:
   - Meteor
   - Web App
   - COVID-19
-summary: Team DAAJ (Dylan, Alyssia, Abdullah, Jolie)'s submission for the 2021 Meteor Hackathon!
+summary: A webapp to help friends plan hangouts; my team of 4's submission for the 2021 Meteor Hackathon.
 ---
 
 <img class="img-fluid" src="../img/proxamie/AddAvailabilitiesPage.png">
