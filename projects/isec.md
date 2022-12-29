@@ -5,6 +5,7 @@ image: img/isec/isec-logo.jpg
 title: ISEC Society Website
 permalink: projects/ISEC
 # All dates must be YYYY-MM-DD format!
+prettydt: Dec. 2020 - Aug. 2022
 date: 2022-08-01
 order: 30
 labels:

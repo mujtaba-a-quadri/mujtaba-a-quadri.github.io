@@ -1,11 +1,12 @@
 ---
 layout: project
-type: project
+type: old
 image: img/gitClubs/gitclubs-logo.jpg
 title: UHM GitClubs
 permalink: projects/gitclubs
 # All dates must be YYYY-MM-DD format!
 date: 2021-05-12
+order: 50
 labels:
   - Web Development
   - Semantic UI

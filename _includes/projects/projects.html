@@ -7,7 +7,8 @@
     </div>
 
     <div class="vstack gap-3">
-      {% assign project_pages = site.pages | where: "type", "project" | sort: "order" %}
+      {% assign project_pages = site.pages | where: "type", "project" | sort: "date" | reverse %}
+      <!-- sort projects on "order" instead of "date" and remove reverse for custom ordering (edit order attribute in project md files.)-->
       {% for page in project_pages %}
         {% unless page.draft %}
           {% include projects/project-card.html page=page %}

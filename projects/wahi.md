@@ -5,6 +5,7 @@ image: img/wahi/WahiLogo-crop.png
 title: WAHI
 permalink: projects/wahi
 # All dates must be YYYY-MM-DD format!
+prettydt: Nov. 2021
 date: 2021-11-21
 labels:
   - Hackathon

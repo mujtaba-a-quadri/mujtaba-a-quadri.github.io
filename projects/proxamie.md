@@ -5,6 +5,7 @@ image: img/proxamie/ProxamieLogo-crop.png
 title: Proxamie
 permalink: projects/proxamie
 # All dates must be YYYY-MM-DD format!
+prettydt: Oct. 2021
 date: 2021-10-22
 labels:
   - Hackathon
@@ -15,7 +16,7 @@ labels:
 summary: Team DAAJ (Dylan, Alyssia, Abdullah, Jolie)'s submission for the 2021 Meteor Hackathon!
 ---
 
-<img class="ui large right floated rounded image" src="../img/proxamie/AddAvailabilitiesPage.png">
+<img class="img-fluid" src="../img/proxamie/AddAvailabilitiesPage.png">
 
 In my (and all my team mates') first Hackathon, we developed an app to help groups plan/schedule hangouts. Users can create and log into accounts, dropping them into their personal profile page. From here they can indicate their availabilities using a [when2meet](https://www.when2meet.com/) style interface. 
 
@@ -23,13 +24,13 @@ They can also create and join groups from this page, leading them to the group p
 
 For this project, I helped plan the database structure and created most of the collections (tables) in it. This was important because there were many relations we needed to display all the info we wanted. For example, users need to see all the groups they are a part of, but group pages also need to display all of the users in the group. We had a couple [many-to-many](https://en.wikipedia.org/wiki/Many-to-many_(data_model)) relationships like this and as such had to plan out join tables. 
 
-<img style="width: 50%" class="ui large right floated rounded image" src="../img/proxamie/CreateHangoutOptions.png">
+<img style="width: 40%" class="float-md-left" src="../img/proxamie/CreateHangoutOptions.png">
 
 My other primary contribution was the create hangout form and hangouts table. Clicking on a date on the group page displays a form to create a new hangout. This form prompts you to choose a time (selected from a dropdown which tells you who will be available at each time) and enter a name and description for the hangout. This info is then put into the hangouts table in the group, for all in the group to see. 
 
-<img style="width: 50%" class="ui large right floated rounded image" src="../img/proxamie/CreateHangoutWarning.png">
+<img style="width: 30%" class="float-left" src="../img/proxamie/CreateHangoutWarning.png">
 
-I also had the form display a warning when too many (>10) would be available for a hangout. Unfortunately this feature broke the morning that the hackathon ended as we had the site refresh on submit of the forms (making it impossible to create a hangout with >10 people). Maybe that's better anyways, we could've gotten in trouble; promoting hangouts of more than 10 people.
+<p class="float-right"> I also had the form display a warning when too many (>10) would be available for a hangout. Unfortunately this feature broke the morning that we were to present our app because of a new feature we added, but hey, that's hackathons. This ended up making it impossible to create a hangout with >10 people, though maybe that's for the best: we could've gotten in trouble promoting hangouts of more than 10 people.</p>
 
 
 All in all, I learned a lot from my first hackathon! I saw just how much can be done in just under a week. I think my group handled the project very well, we didn't step on each other's work too much and made sure to communicate. We met almost every day (multiple times in the later days) and chatted often. I think we were all quite drained from the whole thing though, and I will likely think twice before participating in any short hackathons in the future. I think it was a good experience for sure, just a very exhausting one.
