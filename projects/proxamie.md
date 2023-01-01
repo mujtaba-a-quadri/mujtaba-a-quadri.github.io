@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: img/proxamie/ProxamieLogo-crop.png
-title: Proxamie
+title: Proxamie (2021 Meteor Hackathon)
 permalink: projects/proxamie
 # All dates must be YYYY-MM-DD format!
 prettydt: Oct. 2021
@@ -16,7 +16,7 @@ labels:
 summary: A webapp to help friends plan hangouts; my team of 4's submission for the 2021 Meteor Hackathon.
 ---
 
-<img class="img-fluid" src="../img/proxamie/AddAvailabilitiesPage.png">
+<img class="img-fluid rounded" src="../img/proxamie/AddAvailabilitiesPage.png">
 
 In my (and all my team mates') first Hackathon, we developed an app to help groups plan/schedule hangouts. Users can create and log into accounts, dropping them into their personal profile page. From here they can indicate their availabilities using a [when2meet](https://www.when2meet.com/) style interface. 
 
@@ -32,7 +32,7 @@ For this project, I helped plan the database structure and created most of the c
 My other primary contribution was the **create hangout form** and hangouts table. Clicking on a date on the group page displays a form to create a new hangout. This form prompts you to choose a time (selected from a dropdown which tells you who will be available at each time) and enter a name and description for the hangout. This info is then put into the hangouts table in the group, for all in the group to see. 
 
 <figure class="figure float-start">
-  <img width= "95%" class="figure-img img-fluid" src="../img/proxamie/CreateHangoutWarning.png">
+  <img width= "95%" class="figure-img img-fluid rounded" src="../img/proxamie/CreateHangoutWarning.png">
   <figcaption class="figure-caption">The CDC guideline warning</figcaption>
 </figure>
 

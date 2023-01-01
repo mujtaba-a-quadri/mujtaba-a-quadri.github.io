@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: img/isec/isec-logo.jpg
-title: ISEC Society Website
+title: Full Stack Developer (ISEC)
 permalink: projects/ISEC
 # All dates must be YYYY-MM-DD format!
 prettydt: Dec. 2020 - Aug. 2022
@@ -20,12 +20,12 @@ summary: The ISEC Society is a non-profit journal whose website I worked on for 
 <img class="img-fluid" width="100%" src="{{ site.baseurl }}/img/isec/isec-home.png">
 
 
-The International Structural Engineering and Construction \[ISEC] Society is a non-profit journal/publication that I worked for from December 2020 to August 2022. They publish research papers of many different topics surrounding construction and engineering and hold semi-annual conferences where authors who have had their papers published can present their works. Their website allows authors to submit their abstracts for editor and peer review and potentially accepted, in which case authors can submit the full manuscript for the same process. 
+The International Structural Engineering and Construction (ISEC) Society is a non-profit journal/publication that I worked for from December 2020 to August 2022. They publish research papers of many different topics surrounding construction and engineering and hold semi-annual conferences where authors who have had their papers published can present their works. Their website allows authors to submit their abstracts for editor and peer review and potentially accepted, in which case authors can submit the full manuscript for the same process. 
 
 I worked on maintaining and updating this website when needed, as well as managing the database which included creating a new database and pages for every new conference. I would do DevOps work such as renewing any certificates needed and generating xmls for google search results. I would respond to user questions and issues through email, sometimes leading to changes themselves. Most changes were brought up by my boss who was not a programmer so I would have to specify requirements with him and be able to communicate timelines and feasibility of tasks. Another site that I also maintained and worked on would host the author's published works, this site was called ISEC Press.
 
 <figure class="figure float-end">
-  <img width="750px" style="padding-left: 2rem" class="figure-img img-fluid img-responsive" src="../img/isec/isecpress.png">
+  <img width="750px" style="padding-left: 2rem" class="figure-img img-fluid img-responsive rounded" src="../img/isec/isecpress.png">
   <figcaption style="padding-left: 2rem" class="figure-caption">The last ISEC Press I worked on</figcaption>
 </figure>
 

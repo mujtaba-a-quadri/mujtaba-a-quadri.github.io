@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: img/wahi/WahiLogo-crop.png
-title: WAHI
+title: WAHI (2021 HACC)
 permalink: projects/wahi
 # All dates must be YYYY-MM-DD format!
 prettydt: Nov. 2021
@@ -41,8 +41,8 @@ The Confirm Related Sightings page has a similar view, with rows of sightings in
 
 I learned a lot from the experience with this hackathon. After the very short Meteor Hackathon this one was very different in pace. We definitely slowed down at the start of this hackathon to catch our breath after the sprint that was the Meteor Hackathon. Once we did get this marathon (4 weeks!) started, we had to take time to learn about mobile app development, this was my first time doing anything with a mobile app, so I was thankful for my teammates who were more versed with it. On the web view side of things, the database tables for this app had more fields than I have worked with in any project. There were many pieces of data that HMAR wanted to be stored for each report, which also led to the form being quite long and complex. This made working with the data (such as when inserting or updating) very finnicky: particulary with test data which needed all the fields to be properly set.
 <figure class="figure">
-  <img style="width: 49%" class="figure-img img-fluid img-responsive" src="../img/wahi/LatestReports.png">
-  <img style="width: 49%" class="figure-img img-fluid img-responsive" src="../img/wahi/ConfirmRelated.png">
+  <img style="width: 49%" class="figure-img img-fluid img-responsive rounded" src="../img/wahi/LatestReports.png">
+  <img style="width: 49%" class="figure-img img-fluid img-responsive rounded" src="../img/wahi/ConfirmRelated.png">
   <figcaption class="figure-caption text-center">The pages I worked on (part of the web-app)</figcaption>
 </figure>
 
