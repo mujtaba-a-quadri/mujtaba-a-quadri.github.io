@@ -39,16 +39,14 @@ In being president of the club, I had a lot of responsibility, and I learned a l
 
 
 <figure class="figure">
-  <img style="width: 33%" class="figure-img img-fluid img-responsive rounded" src="../img/panda/panda-me.jpg">
-  <img style="width: 33%" class="figure-img img-fluid img-responsive rounded" src="../img/panda/panda-jake.jpg">
-  <img style="width: 33%" class="figure-img img-fluid img-responsive rounded" src="../img/panda/little-pandas.jpg">
-  <figcaption class="figure-caption text-center">Some typical scenes at Panda meetings, featuring me with far too much hair (left picture, green shirt), and <a href="https://jakehardy95.github.io/">Big Panda Jake</a> (middle picture, blue shirt) leading his group. <br>Not pictured are our other two Big Pandas from Spring 2022: <a href="https://alyssia-chen.github.io/">Alyssia Chen</a> and <a href="http://kobeyarai.com/">Kobey Arai</a></figcaption>
+  <img style="max-width: 33%; min-width: 400px" class="figure-img img-fluid img-responsive rounded" src="../img/panda/panda-me.jpg">
+  <img style="max-width: 33%; min-width: 400px" class="figure-img img-fluid img-responsive rounded" src="../img/panda/panda-jake.jpg">
+  <img style="max-width: 33%; min-width: 400px" class="figure-img img-fluid img-responsive rounded" src="../img/panda/little-pandas.jpg">
+  <figcaption class="figure-caption text-center">Some typical scenes at Panda meetings, featuring me with far too much hair (first picture, green shirt), and <a href="https://jakehardy95.github.io/">Big Panda Jake</a> (second picture, blue shirt) leading his group. <br>Not pictured are our other two Big Pandas from Spring 2022: <a href="https://alyssia-chen.github.io/">Alyssia Chen</a> and <a href="http://kobeyarai.com/">Kobey Arai</a></figcaption>
 </figure>
 
 <br>
 <hr>
 <p class="text-center">
-<a href="https://github.com/HACC2021/DAAJ">See the GitHub repo</a>
-||
-<a href="https://daaj.meteorapp.com/">See the deployed application</a>
+<a href="https://acmanoa.github.io/panda/">See the Panda website</a>
 </p>
