@@ -49,7 +49,7 @@ I learned a lot from the experience with this hackathon. After the very short Me
 <br>
 <hr>
 <p class="text-center">
-<a href="https://github.com/HACC2021/DAAJ">See the GitHub repo</a>
+<a target="_blank" href="https://github.com/HACC2021/DAAJ">See the GitHub repo</a>
 ||
-<a href="https://daaj.meteorapp.com/">See the deployed application</a>
+<a target="_blank" href="https://daaj.meteorapp.com/">See the deployed application</a>
 </p>

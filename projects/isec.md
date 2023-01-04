@@ -44,4 +44,4 @@ Working on the ISEC society website gave me my first experience with full-stack 
 
 <br>
 <hr>
-<p class="text-center">See the main <a href="https://www.isec-society.org/index.php/">ISEC Society Website</a></p>
+<p class="text-center">See the main <a target="_blank" href="https://www.isec-society.org/index.php/">ISEC Society Website</a></p>

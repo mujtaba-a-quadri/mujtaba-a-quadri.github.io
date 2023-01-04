@@ -44,7 +44,7 @@ All in all, I learned a lot from my first hackathon! I saw just how much can be 
 <br>
 <hr>
 <p class="text-center">
-<a href="https://github.com/ICS491-Fall2021/meteor-hackathon">See the GitHub repo</a>
+<a target="_blank" href="https://github.com/ICS491-Fall2021/meteor-hackathon">See the GitHub repo</a>
 ||
-<a href="https://proxamie.meteorapp.com/">See the deployed application</a>
+<a target="_blank" href="https://proxamie.meteorapp.com/">See the deployed application</a>
 </p>

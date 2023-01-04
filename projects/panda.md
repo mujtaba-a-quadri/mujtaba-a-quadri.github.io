@@ -68,5 +68,5 @@ In being president of the club, I had a lot of responsibility, and I learned a l
 <br>
 <hr>
 <p class="text-center">
-<a href="https://acmanoa.github.io/panda/">See the Panda website</a>
+<a target="_blank" href="https://acmanoa.github.io/panda/">See the Panda website</a>
 </p>
