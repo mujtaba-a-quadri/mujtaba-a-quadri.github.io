@@ -37,13 +37,33 @@ In adddition, I also represented the club at various events as well as presented
 
 In being president of the club, I had a lot of responsibility, and I learned a lot of things I probably wouldn't have otherwise. I learned a lot about being a teacher as well as a leader. I also have a very strong grasp on computer science fundamentals like data structures and problem solving stragies, as I was forced to practice a lot. I'm very happy to have had the opportunity to lead this club, and gope to do more things like this in the future.
 
-
-<figure class="figure">
-  <img style="max-width: 33%; min-width: 400px" class="figure-img img-fluid img-responsive rounded" src="../img/panda/panda-me.jpg">
-  <img style="max-width: 33%; min-width: 400px" class="figure-img img-fluid img-responsive rounded" src="../img/panda/panda-jake.jpg">
-  <img style="max-width: 33%; min-width: 400px" class="figure-img img-fluid img-responsive rounded" src="../img/panda/little-pandas.jpg">
-  <figcaption class="figure-caption text-center">Some typical scenes at Panda meetings, featuring me with far too much hair (first picture, green shirt), and <a href="https://jakehardy95.github.io/">Big Panda Jake</a> (second picture, blue shirt) leading his group. <br>Not pictured are our other two Big Pandas from Spring 2022: <a href="https://alyssia-chen.github.io/">Alyssia Chen</a> and <a href="http://kobeyarai.com/">Kobey Arai</a></figcaption>
-</figure>
+<div class="row">
+  <div class="col-md-4">
+    <div class="thumbnail">
+        <img class="rounded" src="../img/panda/panda-me.jpg" alt="A man lecturing to two students in front of a whiteboard" style="width:100%">
+        <div class="figure-caption">
+          <p>Me (with far too much hair) explaining bitwise operations to my group</p>
+        </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="thumbnail">
+        <img class="rounded" src="../img/panda/panda-jake.jpg" alt="A group of students sitting in two rows" style="width:100%">
+        <div class="figure-caption">
+          <p><a href="https://jakehardy95.github.io/">Big Panda Jake</a> (blue shirt) leading his group.</p>
+        </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="thumbnail">
+        <img class="rounded" src="/../img/panda/little-pandas.jpg" alt="A group of 4 students working on something together" style="width:100%">
+        <div class="figure-caption">
+          <p>A group of students getting started on a problem</p>
+        </div>
+    </div>
+  </div>
+</div> 
+  <figcaption class="figure-caption text-center">Some typical scenes at Panda meetings, not pictured are our other two Big Pandas from Spring 2022: <a href="https://alyssia-chen.github.io/">Alyssia Chen</a> and <a href="http://kobeyarai.com/">Kobey Arai</a></figcaption>
 
 <br>
 <hr>
