@@ -1,3 +1,7 @@
-# Professional Portfolio
+# Arthur's Technical Portfolio
 
-For details on this professional portfolio, please see https://techfolios.github.io.
+Built using [TechFolio](http://techfolios.github.io).
+
+[https://mujtaba-a-quadri.github.io/](https://mujtaba-a-quadri.github.io/)
+
+

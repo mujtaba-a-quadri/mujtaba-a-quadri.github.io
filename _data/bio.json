@@ -1,11 +1,11 @@
 {
   "basics": {
-    "name": "Mujtaba Abdullah Quadri",
+    "name": "Mujtaba \"Arthur\" Quadri",
     "label": "Alumni",
     "picture": "https://github.com/mujtaba-a-quadri.png",
     "email": "mujtaba.a.quadri@gmail.com",
     "phone": "808-800-6709",
-    "summary": "Graduated from UH Mānoa with a BS in Computer Science, working in Maine.",
+    "summary": "Raised and schooled in Hawaii, now working as a contractor for the State of Maine .",
     "location": {
       "address": "",
       "postalCode": "96822",
@@ -88,12 +88,27 @@
   ],
   "work": [
     {
+      "company": "Fast Enterprises - Maine Revenue Services",
+      "position": "Software Implementation Consultant",
+      "website": "https://revenue.maine.gov/_/",
+      "startDate": "Jun. 2023",
+      "endDate": "Present",
+      "summary": "Developing alongside a team of Maine's government employees and contracted FAST Enterprises employees on the internal STARS webapp and the public Maine Tax Portal website.",
+      "highlights": [
+        "Fixed complex, longstanding bugs in the tax underpayment penalty’s assessment and bill recovery’s reporting.",
+        "Created the online submission process for Maine’s municipal governments to export/review and import new real estate transfer information for that year, available to them on the Maine Tax Portal.",
+        "Regular demos of new functionality and discussions with business owners and management on implementation.",
+        "their sense of humor and positive outlook boosted the morale of the Maine Tax team. – from my annual review."
+
+      ]
+    },
+    {
       "company": "Hawai'i Department of Taxation",
       "position": "System Programmer",
       "website": "https://tax.hawaii.gov/",
       "startDate": "Jul. 2022",
       "endDate": "Dec. 2022",
-      "summary": "Developing alongside a team of Hawai'i government employees and contracted FAST Enterprises employees on the internal GenTax website and the public DOTAX tax.hawaii.gov website.",
+      "summary": "Developing alongside a team of Hawai'i government employees and contracted FAST Enterprises employees on the internal GenTax webapp and the public DOTAX tax.hawaii.gov website.",
       "highlights": [
         "Worked on the 2022 Year-End Changes project, updating many forms and parts of the site for 2023.",
         "Collaborated with the team for multiple passes of end-to-end testing of the system and changes.",
