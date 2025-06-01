@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="COVID-19 Tracker Project | Mujtaba Abdullah Quadri | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/mujtaba-a-quadri.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Mujtaba Abdullah Quadri | Professional Portfolio">
+    <meta property="og:url" content="https://mujtaba-a-quadri.github.io/projects/covid-tracker">
+    <meta property="og:title" content="COVID-19 Tracker Project | Mujtaba Abdullah Quadri | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/mujtaba-a-quadri.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/lime.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>COVID-19 Tracker Project | Mujtaba Abdullah Quadri | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+      <a class="navbar-brand"><a href="/" target="_self">
+    <svg class="tf-social" id="home">
+      <use xlink:href="/img/bootstrap-icons.svg#house"/>
+    </svg>
+    <span></span>
+  </a>
+  </a>
+      <a class="navbar-brand" href="/">&nbspMujtaba Abdullah "Arthur" Quadri</a>
+  <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/projects">My Work</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">COVID-19 Tracker Project</h1>
+ <p>For ICS 491, we created a COVID tracking app as a warmup before the two hackathons that we will participate in start. The app uses a Meteor, Mongo, React stack to prepare us for the Meteor Hackathon we plan to participate in. The app’s functionality is based on the UH Manoa <a href="https://uh.campus.lumisight.com/">Lumisight app</a>. Users are able to sign up, log in, upload a timestamped symptom check, and upload their vaccine information (including a photo of the card!).</p>
+
+<p>A lot of the work I did on this app had to do with Dates, and in particilar the JavaScript Date object. Properly displayed and recorded dates were important for this app. The day of a vaccine being administered or of an individual being clear of COVID symptoms are important information considering how infectious the virus is. I made sure the dates were stored and displayed correctly on the List Status page, as well as making the Edit Status page functional (which also displays the date of the symptom report).</p>
+
+<p><img class="ui large right floated rounded image" src="../img/covidTracker/covid-tracker-form.png" /></p>
+
+<p>The most important addition I made to the application was the Add Vaccine form/page (pictured on the right) and the Vaccine Record table under List Status. This required a new table in the database and was a rather involved form due to all the information required for a vaccine. Though I did not work on the functionality that allowed users to submit a picture of their vaccine card, I created the rest of the form. Displaying the information was also tricky, especially in the outlier case of the Johnson &amp; Johnson vaccine which has no second dose, so the date of the second dose displayed needed to be N/A.</p>
+
+<p>The experience developing this application taught me a lot. As stated, a lot of the work I did involved dates in some capacity, so I gained a lot of familiarity with the format of JavaScript dates. I also took somewhat of a leadership position on this project, helping to think of and divide tasks. So I learned a lot in that respect too, figuring out how to divide up the development of the app into tasks an individual could take on.</p>
+
+<p><a href="https://github.com/ICS491-Fall2021/covid-tracker">See the GitHub repo</a> 
+||
+<a href="https://covid-tracker.meteorapp.com/">See the deployed application</a></p>
+
+
+</div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="WAHI (2021 HACC) | Mujtaba Abdullah Quadri | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/mujtaba-a-quadri.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Mujtaba Abdullah Quadri | Professional Portfolio">
+    <meta property="og:url" content="https://mujtaba-a-quadri.github.io/projects/wahi">
+    <meta property="og:title" content="WAHI (2021 HACC) | Mujtaba Abdullah Quadri | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/mujtaba-a-quadri.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/lime.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>WAHI (2021 HACC) | Mujtaba Abdullah Quadri | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+      <a class="navbar-brand"><a href="/" target="_self">
+    <svg class="tf-social" id="home">
+      <use xlink:href="/img/bootstrap-icons.svg#house"/>
+    </svg>
+    <span></span>
+  </a>
+  </a>
+      <a class="navbar-brand" href="/">&nbspMujtaba Abdullah "Arthur" Quadri</a>
+  <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/projects">My Work</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">WAHI (2021 HACC)</h1>
+ <figure class="figure float-end">
+  <img width="550px" style="padding-left: 2rem" class="figure-img img-fluid img-responsive" src="../img/wahi/AppHome.jpeg" />
+  <figcaption style="padding-left: 2rem" class="figure-caption">The homepage of our mobile app</figcaption>
+</figure>
+
+<h2 id="the-challenge">The Challenge</h2>
+
+<p>For the <a href="https://hacc.hawaii.gov/">2021 HACC (Hawaii Annual Code Challenge)</a> my group took on the challenge of implementing a marine life reporting &amp; sighting app. HMAR (Hawaii Marine Animal Reponse) desired an app to help managing the large amount of reports they get (all through a phone line) for sightings of endangered species of birds, seals, and turtles.</p>
+
+<h2 id="the-app">The App</h2>
+
+<p>Our implementation has a <strong>mobile app</strong> for beach-goers to submit a form for any sightings they make, with all the relevant information that HMAR volunteers need about the sighting. This data is then displayed on our webview which is exclusively for use of HMAR staff and volunteers to view reports of sightings.</p>
+
+<p>For this app, I primarily worked on the Latest Reports and Confirm Related Sightings pages. The latest reports page shows all reports that users have submitted through the app, in reverse chronological order. Each row has the important info on a sighting, and a field to indicate if the report has been “Checked” and is no longer of concern. Unchecked reports can be edited or deleted by clicking on the animal type, and appear at the top of the sorting regardless of date.</p>
+
+<p>The Confirm Related Sightings page has a similar view, with rows of sightings in a table displaying the important info. These sightings are in groups (with alternating colors) that were detected as being similar to each other (due to factors like location or time being very similar). HMAR wanted a way to cut down on the number of duplicate reports they get, so this page allows an HMAR volunteer to distinguish at a glance whether a group of reports are the same or not. If they decide the group of reports are not actually the same sighting, they can click no, in which case the sightings will be confirmed as distinct and seperated into two rows in the Latest Reports page. Otherwise, the sightings will be grouped together as one row on the page.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>I learned a lot from the experience with this hackathon. After the very short Meteor Hackathon this one was very different in pace. We definitely slowed down at the start of this hackathon to catch our breath after the sprint that was the Meteor Hackathon. Once we did get this marathon (4 weeks!) started, we had to take time to learn about mobile app development, this was my first time doing anything with a mobile app, so I was thankful for my teammates who were more versed with it. On the web view side of things, the database tables for this app had more fields than I have worked with in any project. There were many pieces of data that HMAR wanted to be stored for each report, which also led to the form being quite long and complex. This made working with the data (such as when inserting or updating) very finnicky: particulary with test data which needed all the fields to be properly set.</p>
+<figure class="figure">
+  <img style="width: 49%" class="figure-img img-fluid img-responsive rounded" src="../img/wahi/LatestReports.png" />
+  <img style="width: 49%" class="figure-img img-fluid img-responsive rounded" src="../img/wahi/ConfirmRelated.png" />
+  <figcaption class="figure-caption text-center">The pages I worked on (part of the web-app)</figcaption>
+</figure>
+
+<p><br /></p>
+<hr />
+
+<p class="text-center">
+<a target="_blank" href="https://github.com/HACC2021/DAAJ">See the GitHub repo</a>
+||
+<a target="_blank" href="https://daaj.meteorapp.com/">See the deployed application</a>
+</p>
+
+</div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,141 @@
+{
+  "basics": {
+    "name": "Mujtaba Abdullah \"Arthur\" Quadri",
+    "label": "Implementation Consultant",
+    "picture": "https://github.com/mujtaba-a-quadri.png",
+    "email": "mujtaba.a.quadri@gmail.com",
+    "phone": "808-800-6709",
+    "summary": "Raised and schooled in Hawaii, now working as a contractor for the State of Maine .",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "",
+      "countryCode": "USA",
+      "region": "Maine"
+    },
+    "profiles": [
+      {
+        "network": "github",
+        "username": "mujtaba-a-quadri",
+        "url": "http://github.com/mujtaba-a-quadri"
+      },
+      {
+        "network": "linkedin",
+        "username": "Mujtaba Quadri",
+        "url": "https://www.linkedin.com/in/mujtaba-quadri/"
+      }
+    ]
+  },
+  "interests": [
+    {
+      "name": "Software Engineering",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Website Development",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Data Management",
+      "keywords": [
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages",
+      "level": "",
+      "keywords": [
+        "Python",
+        "Javascript",
+        "PHP",
+        "C++",
+        "Java",
+        "HTML/CSS",
+        "MySQL",
+        "MongoDB"
+      ]
+    },
+    {
+      "name": "Tools/OS",
+      "level": "",
+      "keywords": [
+        "React",
+        "Meteor",
+        "MacOS",
+        "Windows",
+        "Git/GitHub",
+        "Microsoft Office"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Hawai'i, Honolulu, HI",
+      "area": "Computer Science",
+      "studyType": "BS",
+      "startDate": "Aug. 2019",
+      "endDate": "Dec. 2022",
+      "gpa": "3.98",
+      "courses": ["Graduated with summa cum laude distinction and a 3.98/4.00 GPA; UH Mānoa Dean’s List every semester",
+                  "Worked on multiple full-stack class projects including participating in 2 hackathons",
+                  "Created and moderated multiple Discords for online classes, facilitating study groups and peer discussions.",
+                  "President of PandA (Programming and Algorithms) club"
+      ]
+    }
+  ],
+  "work": [
+    {
+      "company": "Fast Enterprises - Maine Revenue Services",
+      "position": "Software Implementation Consultant",
+      "website": "https://revenue.maine.gov/_/",
+      "startDate": "Jun. 2023",
+      "endDate": "Present",
+      "summary": "Developing alongside a team of Maine's government employees and contracted FAST Enterprises employees on the internal STARS webapp and the public Maine Tax Portal website.",
+      "highlights": [
+        "Fixed complex, longstanding bugs in the tax underpayment penalty’s assessment and bill recovery’s reporting.",
+        "Created the online submission process for Maine’s municipal governments to export/review and import new real estate transfer information for that year, available to them on the Maine Tax Portal.",
+        "Regular demos of new functionality and discussions with business owners and management on implementation.",
+        "their sense of humor and positive outlook boosted the morale of the Maine Tax team. – from my annual review."
+
+      ]
+    },
+    {
+      "company": "Hawai'i Department of Taxation",
+      "position": "System Programmer",
+      "website": "https://tax.hawaii.gov/",
+      "startDate": "Jul. 2022",
+      "endDate": "Dec. 2022",
+      "summary": "Developing alongside a team of Hawai'i government employees and contracted FAST Enterprises employees on the internal GenTax webapp and the public DOTAX tax.hawaii.gov website.",
+      "highlights": [
+        "Worked on the 2022 Year-End Changes project, updating many forms and parts of the site for 2023.",
+        "Collaborated with the team for multiple passes of end-to-end testing of the system and changes.",
+        "Regular meetings with management discussing progress, prioritization, and requirements for tasks."
+      ]
+    },
+    {
+      "company": "ISEC Society",
+      "position": "Full Stack Developer",
+      "website": "https://www.isec-society.org/index.php",
+      "startDate": "Dec. 2020",
+      "endDate": "Aug. 2022",
+      "summary": "Independent contractor, working on ISEC website and providing IT support",
+      "highlights": [
+        "LAMP (Linux, Apache, MySQL, PHP) tech stack",
+        "Hundred-thousand-line legacy code base with little documentation",
+        "Interfacing with non-tech-fluent admin team on programming tasks",
+        "Training new developer for work on the site"
+      ]
+    }
+
+  ],
+
+  "references": [
+    {
+      "name": "Available upon request",
+      "reference": ""
+    }
+  ]
+}

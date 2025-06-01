@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Proxamie (2021 Meteor Hackathon) | Mujtaba Abdullah Quadri | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/mujtaba-a-quadri.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Mujtaba Abdullah Quadri | Professional Portfolio">
+    <meta property="og:url" content="https://mujtaba-a-quadri.github.io/projects/proxamie">
+    <meta property="og:title" content="Proxamie (2021 Meteor Hackathon) | Mujtaba Abdullah Quadri | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/mujtaba-a-quadri.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/lime.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Proxamie (2021 Meteor Hackathon) | Mujtaba Abdullah Quadri | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+      <a class="navbar-brand"><a href="/" target="_self">
+    <svg class="tf-social" id="home">
+      <use xlink:href="/img/bootstrap-icons.svg#house"/>
+    </svg>
+    <span></span>
+  </a>
+  </a>
+      <a class="navbar-brand" href="/">&nbspMujtaba Abdullah "Arthur" Quadri</a>
+  <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/projects">My Work</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Proxamie (2021 Meteor Hackathon)</h1>
+ <p><img class="img-fluid rounded" src="../img/proxamie/AddAvailabilitiesPage.png" /></p>
+
+<p>In my (and all my team mates’) first Hackathon, we developed an app to help groups plan/schedule hangouts. Users can create and log into accounts, dropping them into their personal profile page. From here they can indicate their availabilities using a <a href="https://www.when2meet.com/">when2meet</a> style interface.</p>
+
+<p>They can also create and join groups from this page, leading them to the group page. The group page features a unique code to share with others, allowing them to join the group from their profile page. Finally, from the groups page, any member can click on a calendar which visualizes the group’s overlapping availabilities. Clicking on a date will pop up a form to create a hangout, which will be visible to all group members.</p>
+
+<figure class="figure float-end">
+  <img width="80%" style="padding-left: 2rem" class="figure-img img-fluid" src="../img/proxamie/CreateHangoutOptions.png" />
+  <figcaption style="padding-left: 2rem" class="figure-caption">The create hangout form</figcaption>
+</figure>
+
+<p>For this project, I helped plan the database structure and created most of the collections (tables) in it. This was important because there were many relations we needed to display all the info we wanted. For example, users need to see all the groups they are a part of, but group pages also need to display all of the users in the group. We had a couple <a href="https://en.wikipedia.org/wiki/Many-to-many_(data_model)">many-to-many</a> relationships like this and as such had to plan out join tables.</p>
+
+<p>My other primary contribution was the <strong>create hangout form</strong> and hangouts table. Clicking on a date on the group page displays a form to create a new hangout. This form prompts you to choose a time (selected from a dropdown which tells you who will be available at each time) and enter a name and description for the hangout. This info is then put into the hangouts table in the group, for all in the group to see.</p>
+
+<figure class="figure float-start">
+  <img width="95%" class="figure-img img-fluid rounded" src="../img/proxamie/CreateHangoutWarning.png" />
+  <figcaption class="figure-caption">The CDC guideline warning</figcaption>
+</figure>
+
+<p>I also had the form display a <strong>warning</strong> when too many (&gt;10) would be available for a hangout. Unfortunately this feature broke the morning that we were to present our app because of a new feature we added, but hey, that’s hackathons. This ended up making it impossible to create a hangout with &gt;10 people, though maybe that’s for the best: we could’ve gotten in trouble promoting hangouts of more than 10 people.</p>
+
+<p>All in all, I learned a lot from my first hackathon! I saw just how much can be done in just under a week. I think my group handled the project very well, we didn’t step on each other’s work too much and made sure to communicate. We met almost every day (multiple times in the later days) and chatted often. I think we were all quite drained from the whole thing though, and I will likely think twice before participating in any short hackathons in the future. I think it was a good experience for sure, just a very exhausting one.</p>
+
+<p><br /></p>
+<hr />
+
+<p class="text-center">
+<a target="_blank" href="https://github.com/ICS491-Fall2021/meteor-hackathon">See the GitHub repo</a>
+||
+<a target="_blank" href="https://proxamie.meteorapp.com/">See the deployed application</a>
+</p>
+
+</div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

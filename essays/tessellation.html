@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Emerge, Refine, Implement | Mujtaba Abdullah Quadri | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/mujtaba-a-quadri.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Mujtaba Abdullah Quadri | Professional Portfolio">
+    <meta property="og:url" content="https://mujtaba-a-quadri.github.io/essays/tessellation.html">
+    <meta property="og:title" content="Emerge, Refine, Implement | Mujtaba Abdullah Quadri | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/mujtaba-a-quadri.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/lime.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Emerge, Refine, Implement | Mujtaba Abdullah Quadri | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+      <a class="navbar-brand"><a href="/" target="_self">
+    <svg class="tf-social" id="home">
+      <use xlink:href="/img/bootstrap-icons.svg#house"/>
+    </svg>
+    <span></span>
+  </a>
+  </a>
+      <a class="navbar-brand" href="/">&nbspMujtaba Abdullah "Arthur" Quadri</a>
+  <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/projects">My Work</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Emerge, Refine, Implement</h1>
+  <span class="date">28 Apr 2021</span>
+  <hr>
+  <h2 id="patterns-are-everywhere">Patterns are Everywhere</h2>
+
+<p>And we <a href="https://en.wikipedia.org/wiki/Apophenia">see them everywhere</a> too. Our pattern recognition as humans helps us understand how the world around us works. If we couldn’t understand patterns, we’d be much worse at guessing, hypothesizing, and reasoning.</p>
+
+<h2 id="emergent-patterns">Emergent Patterns</h2>
+
+<p>Good software engineers will notice patterns during development. These patterns (if they proved to work well), might be recorded for future reference by the same team or for other teams. There’s usually a good reason why we stumble across patterns or do things in a systematic way: it works. Over time, some good patterns have emerged, been tested, and then refined by other teams into what we call software design patterns. There’s also the reverse: a so-called “anti-pattern”, which should really be called a “bad pattern” because it is still a pattern, just one that shouldn’t be used.</p>
+
+<h2 id="imposing-patterns">Imposing Patterns</h2>
+
+<p>Finding these good software design patterns and distilling them down into what makes them work takes a lot of time. Luckily for most developers, the work has already been done: the pattern has been shown to work. These patterns can be imposed (or elements of said patterns) into your development process in order to reap the benefits without the years of work of finding the working pattern. But it’s important to understand why the patterns work, and what situation they apply to. Without understanding these two things, you might be using the wrong tool for the job and make things harder for yourself and your team.</p>
+
+<h2 id="patterns-in-gitclubs">Patterns in GitClubs</h2>
+
+<p>In my team’s <a href="https://uhm-gitclubs.github.io/">GitClubs</a> project, we implemented a few design patterns. This project was built with Meteor, so the design patterns implicit in Meteor and Javascript are present here. These include the following design patterns: prototype, observer, MVC, and front controller. Specific to our project and not implicit to Meteor and JS, we used the singleton design patterns.</p>
+
+<h4 id="meanings">Meanings</h4>
+<ul>
+  <li>Prototype - this is used in object oriented languages, instead of creating new objects in a class, we simply clone the original object, this is how all object orientation works in JS</li>
+  <li>Observer - This is when the server (the “subject”) will update the users (called “observers”) on any changes in data as they occur, rather than only doing it on a new request. This is what allows Meteor to have reactive data without refreshing pages.</li>
+  <li>Model-view-controller (MVC) - This is when the program and its logic are split into three categories
+    <ul>
+      <li>The model contains the database usually, and also handles logic.</li>
+      <li>The view is what the user sees and interacts with; the user interface</li>
+      <li>The controller is how the user’s interactions are processed and handled as commands for the other two components.</li>
+    </ul>
+  </li>
+  <li>Front controller - this is where all requests to the server are handled by one handler. In meteor, this is the router package used (we used react router).</li>
+  <li>Singleton - this is when a class is instantiated only once. We used this for our mongo databases/schemas, which were singleton javascript classes.</li>
+</ul>
+
+</div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
